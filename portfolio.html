@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-
+sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">JD</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container my-5">
+      <h1 class="text-center">My Portfolio</h1>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/Keyboard1.jpg" class="card-img-top" alt="Pic 1" />
+
+            <div class="card-body">
+              <h5 class="card-title">Keyboard</h5>
+
+              <p class="card-text">
+                I build keyboards simular to this one right here!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/Desk2.jpg" class="card-img-top" alt="Pic 2" />
+
+            <div class="card-body">
+              <h5 class="card-title">Desk Setup</h5>
+
+              <p class="card-text">
+                I setup peoples desks and desktops in an aesthetically pleasing
+                way!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/Tech.jpg" class="card-img-top" alt="Pic 3" />
+
+            <div class="card-body">
+              <h5 class="card-title">Technology</h5>
+
+              <p class="card-text">Technology is my favorite.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 class="mt-5 fw-light">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facilis
+        repudiandae ipsa, quisquam officiis vitae unde sunt ipsum dolorum neque
+        fugit odit recusandae sapiente numquam illum libero, maxime laborum
+        error?
+      </h3>
+    </section>
+    <section class="container my-5">
+      <h2 class="text-center">Image Carousel</h2>
+      <div id="phtoCarousel" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/pc1.jpg"
+              class="d-block w-100 carouselimg"
+              alt="Slide 1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/pc2.jpg"
+              class="d-block w-100 carouselimg"
+              alt="Slide 2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/desk.jpg"
+              class="d-block w-100 carouselimg"
+              alt="Slide 3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#phtoCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#phtoCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+    <footer class="bg-dark text-white text-center p-3 mt-0">
+      &copy; 2026 Jadens Website. All rights reserved
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
